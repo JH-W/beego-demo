@@ -1,5 +1,6 @@
 ##几本go相关书，基础，高级进阶，细节描述，值得看看
 
+###Go语言圣经（中文版）
 https://books.studygolang.com/gopl-zh/index.html
 
 ###Go语言高级编程

@@ -21,6 +21,11 @@ func init() {
 				&controllers.DemoController{},
 			),
 		),
+		beego.NSNamespace("/etcd",
+			beego.NSInclude(
+				&controllers.EtcdController{},
+			),
+		),
 	)
 	beego.AddNamespace(ns)
 }
